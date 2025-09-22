@@ -35,27 +35,6 @@ Python dependencies:
 
 pip install mysql-connector-python beautifulsoup4 requests
 
-Setup
-
-Clone this repository:
-
-git clone https://github.com/yourusername/nfl-stats-scraper.git
-cd nfl-stats-scraper
-
-
-Edit database credentials inside main.py:
-
-mydb = mysql.connector.connect(
-    host = "127.0.0.1", 
-    user = "your_mysql_user", 
-    passwd = "your_mysql_password"
-)
-
-
-Run the script:
-
-python footballDatabaseStartup.py
-
 
 The script will:
 
