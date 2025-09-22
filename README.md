@@ -67,7 +67,7 @@ Insert all player stats
 
  
 
-🚀 Future Improvements
+Future Improvements
 
 Add a table for field goal stats
 
