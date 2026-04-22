@@ -5,7 +5,7 @@ NFL Stats Scraper & MySQL Loader
 This project scrapes NFL player statistics from NFL.com
  using BeautifulSoup and loads the data into a structured MySQL database for further analysis.
 
-It automatically:
+**It automatically:**
 
 -Creates a new database (Football_Data)
 
@@ -15,7 +15,7 @@ It automatically:
 
 -Inserts player statistics directly into MySQL
 
-Features
+**Features**
 
 Scrapes NFL player stats from multiple categories (passing, rushing, receiving, fumbles, tackles, interceptions, kickoffs, kickoff returns, punting, punting returns).
 
@@ -25,18 +25,18 @@ Cleans and normalizes column names (e.g., % → Percent, Lng → Longest).
 
 Inserts all scraped data into MySQL for analysis or visualization.
 
-Requirements
+**Requirements**
 
 Python
 
 MySQL Server (local or remote)
 
-Python dependencies:
+**Python dependencies:**
 
 pip install mysql-connector-python beautifulsoup4 requests
 
 
-The script will:
+**The script will:**
 
 Create a database called Football_Data
 
@@ -46,7 +46,7 @@ Insert all player stats
 
  
 
-Future Improvements
+**Future Improvements**
 
 Add a table for field goal stats
 
